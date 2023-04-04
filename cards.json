@@ -1,0 +1,23 @@
+ {
+    "cards": 
+    [
+        {
+            "name": "pack 1",
+            "card_1": "Answer a1",
+            "card_2": "Answer b1",
+            "card_3": "Answer c1"
+        },
+        {
+            "name": "pack 2",
+            "card_1": "Answer a2",
+            "card_2": "Answer b2",
+            "card_3": "Answer c2"
+        },
+        {
+            "name": "pack 3",
+            "card_1": "Answer a3",
+            "card_2": "Answer b3",
+            "card_3": "Answer c3"
+        }
+    ]
+}
