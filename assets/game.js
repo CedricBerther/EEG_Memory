@@ -49,9 +49,9 @@ const generateGame = () => {
     if (dimensions_length * dimensions_width % 2 !== 0) {
         throw new Error("The dimension of the board must be an even number.")
     }
-    const word1 = ['A1', 'B1', 'C1']
-    const word2 = ['A2', 'B2', 'C2']
-    const word3 = ['A.jpg', 'B.jpg', 'C.jpg']
+    const word1 = ['A1', 'B1', 'C1', 'D1', 'E1', 'F1', 'G1', 'H1', 'I1', 'J1']
+    const word2 = ['A2', 'B2', 'C2', 'A2', 'E2', 'F2', 'G2', 'H2', 'I2', 'J2']
+    const word3 = ['A3', 'B3', 'C3', 'A3', 'E3', 'F3', 'G3', 'H3', 'I3', 'J3']
     const pairs = [];
 
     for (let i = 0; i < word1.length; i++) {

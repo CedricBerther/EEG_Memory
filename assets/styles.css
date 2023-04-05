@@ -11,8 +11,8 @@ html {
 }
 
 .game {
-    position: absolute;
-    top: 50%;
+    position: fixed;
+    top: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -149,10 +149,11 @@ button {
     align-items: center;
     z-index: 1;
     position: absolute;
-    top: 50%;
+    top: calc(100% + 50px);
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -100%);
   }
+  
   
   .popup-gallery .popup-text {
     font-size: 2rem;
