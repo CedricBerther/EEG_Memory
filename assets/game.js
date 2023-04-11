@@ -71,7 +71,21 @@ const generateGame = () => {
                    'H2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
                    'I2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
                    'J2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.']
-    const word3 = ['A3', 'B3', 'C3', 'A3', 'E3', 'F3', 'G3', 'H3', 'I3', 'J3']
+                   const word3 = [
+                    '<img class="image" src="./assets/images/image1.png">', 
+                    '<img class="image" src="./assets/images/image2.png">', 
+                    '<img class="image" src="./assets/images/image3.png">', 
+                    '<img class="image" src="./assets/images/image1.png">', 
+                    '<img class="image" src="./assets/images/image4.png">', 
+                    '<img class="image" src="./assets/images/image5.png">', 
+                    '<img class="image" src="./assets/images/image6.png">', 
+                    '<img class="image" src="./assets/images/image7.png">', 
+                    '<img class="image" src="./assets/images/image8.png">', 
+                    '<img class="image" src="./assets/images/image9.png">', 
+                    '<img class="image" src="./assets/images/image10.png">', 
+                    '<img class="image" src="./assets/images/image11.png">', 
+                    '<img class="image" src="./assets/images/image12.png">'
+                ];
     const pairs = [];
 
     for (let i = 0; i < word1.length; i++) {
@@ -79,7 +93,7 @@ const generateGame = () => {
         id: i,
         value1: word1[i],
         value2: word2[i],
-        value3: word3[i]
+        value3: word3[i]    
         };
         pairs.push(pair);
     }
