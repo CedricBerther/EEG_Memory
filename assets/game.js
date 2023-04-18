@@ -72,18 +72,18 @@ const generateGame = () => {
                    'I2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
                    'J2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.']
                    const word3 = [
-                    '<a href="./assets/images/image1.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image1.png"></a>', 
-                    '<a href="./assets/images/image2.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image2.png"></a>', 
-                    '<a href="./assets/images/image3.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image3.png"></a>', 
-                    '<a href="./assets/images/image4.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image4.png"></a>', 
-                    '<a href="./assets/images/image5.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image5.png"></a>', 
-                    '<a href="./assets/images/image6.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image6.png"></a>', 
-                    '<a href="./assets/images/image7.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image7.png"></a>', 
-                    '<a href="./assets/images/image8.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image8.png"></a>', 
-                    '<a href="./assets/images/image9.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image9.png"></a>', 
-                    '<a href="./assets/images/image10.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image10.png"></a>', 
-                    '<a href="./assets/images/image11.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image11.png"></a>', 
-                    '<a href="./assets/images/image12.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image12.png"></a>'
+                    '<a class="image" href="./assets/images/image1.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image1.png"></a>', 
+                    '<a class="image" href="./assets/images/image2.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image2.png"></a>', 
+                    '<a class="image" href="./assets/images/image3.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image3.png"></a>', 
+                    '<a class="image" href="./assets/images/image4.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image4.png"></a>', 
+                    '<a class="image" href="./assets/images/image5.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image5.png"></a>', 
+                    '<a class="image" href="./assets/images/image6.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image6.png"></a>', 
+                    '<a class="image" href="./assets/images/image7.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image7.png"></a>', 
+                    '<a class="image" href="./assets/images/image8.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image8.png"></a>', 
+                    '<a class="image" href="./assets/images/image9.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image9.png"></a>', 
+                    '<a class="image" href="./assets/images/image10.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image10.png"></a>', 
+                    '<a class="image" href="./assets/images/image11.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image11.png"></a>', 
+                    '<a class="image" href="./assets/images/image12.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image12.png"></a>'
                 ];
     const pairs = [];
 
