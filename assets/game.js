@@ -64,7 +64,7 @@ const generateGame = () => {
     const word2 = ['A2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
                    'B2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
                    'C2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
-                   'A2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
+                   'D2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
                    'E2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
                    'F2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
                    'G2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
@@ -120,6 +120,8 @@ const generateGame = () => {
     const parser = new DOMParser().parseFromString(cards, 'text/html')
 
     selectors.board.replaceWith(parser.querySelector('.board'))
+
+    
 }
 
 
@@ -145,6 +147,19 @@ const flipBackCards = () => {
 }
 
 const flipCard = card => {
+    
+    if (card.textContent === '\n                    \n                    \n                ') {
+        // Lightbox-Code hinzufügen, um das Bild in der Lightbox anzuzeigen
+        id = card.getAttribute("id")
+        let idNumber = parseInt(id); // convert string to number
+        idNumber++; // increment the number
+        id = idNumber.toString(); // convert back to string
+        var lightboxHTML = '<a href="./assets/images/image' + id + '.png" data-lightbox="mygallery"><img src="./assets/images/image' + id + '.png"></a>';
+        document.querySelector('.popup-gallery .popup-image').innerHTML = lightboxHTML;
+        // Lightbox öffnen
+        $('.popup-gallery a').first().click();
+    }
+
     state.flippedCards++
     state.totalFlips++
     const text = card.innerText;
@@ -209,6 +224,7 @@ if (!document.querySelectorAll('.card:not(.flipped)').length) {
     }, 1000)
   }
     }
+    
 }
 
 
