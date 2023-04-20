@@ -50,32 +50,6 @@ const generateGame = () => {
         throw new Error("The dimension of the board must be an even number.")
     }
 
-
-<<<<<<< HEAD
-    const word1 = ['A1', 
-                   'B1', 
-                   'C1', 
-                   'D1', 
-                   'E1', 
-                   'F1', 
-                   'G1', 
-                   'H1', 
-                   'I1', 
-                   'J1']
-    const word2 = ['A2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
-                   'B2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
-                   'C2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte diesen Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
-                   'D2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
-                   'E2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
-                   'F2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
-                   'G2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
-                   'H2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
-                   'I2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.', 
-                   'J2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.']
-                   const word3 = [
-                    '<a class="image" href="./assets/images/image1.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image1.png"></a>', 
-=======
-
     const word1 = ['ERP: Definition', 
                    'Strand-Analogie', 
                    'Gesichtswahrnehmung', 
@@ -103,7 +77,6 @@ const generateGame = () => {
                 ]
                    
     const word3 = [ '<a class="image" href="./assets/images/image1.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image1.png"></a>', 
->>>>>>> 6b17680d595617452a2b1e455e921baf284888ff
                     '<a class="image" href="./assets/images/image2.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image2.png"></a>', 
                     '<a class="image" href="./assets/images/image3.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image3.png"></a>', 
                     '<a class="image" href="./assets/images/image4.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image4.png"></a>', 
