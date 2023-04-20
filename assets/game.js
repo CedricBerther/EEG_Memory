@@ -51,6 +51,7 @@ const generateGame = () => {
     }
 
 
+<<<<<<< HEAD
     const word1 = ['A1', 
                    'B1', 
                    'C1', 
@@ -73,6 +74,36 @@ const generateGame = () => {
                    'J2 Das hier ist ein Test-Text, welcher über mehrere Zeilen gehen soll. Deswegen wird sollte dieser Beispieltext möglichst lang sein. Dadurch soll sichergestellt werden, dass er mehrere Zeilen ist. Das er hoffentlich ist.']
                    const word3 = [
                     '<a class="image" href="./assets/images/image1.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image1.png"></a>', 
+=======
+
+    const word1 = ['ERP: Definition', 
+                   'Strand-Analogie', 
+                   'Gesichtswahrnehmung', 
+                   'In drei Schritten vom EEG zum ERP', 
+                   'Segmentierung', 
+                   'Mittelung', 
+                   'Filterung', 
+                   'P300', 
+                   'N400', 
+                   'CNV',
+                   'RP/BP',
+                   'ERN']
+    const word2 = ['Event-related potentials. ERPs sind Spannungsveränderungen im elektrischen Feld, die in einem fixierten zeitlichen Zusammenhang zu einem Ereignis stehen.', 
+                   'Dinge, die immer gleich sind, sind klar und bei ERPs von Interesse. Dinge, die sich bewegen, sind unklar und werden herausgemittelt.', 
+                   'Wird immer die Sekunde ausgeschnitten / herausgefiltert, wo jemand blinzelt. Der Rest, welcher «normal» verläuft, wird hervorgehoben resp. beibehalten.', 
+                   'Segmentiert, gemittelt und gefiltert', 
+                   'Ein EEG Spur wird in verschiedene unterschiedliche Abschnitte geteilt/ gegliedert.', 
+                   'Not-time-locked wird herausgemittelt, Time-locked kommt zum Vorschein.', 
+                   'Üblicherweise werden Frequenzen < 1.5Hz und > 30 Hz herausgefiltert. Dies dient bspw. der Entfernung von Artefakten.', 
+                   'Wird in einer Serie von gleichbleibenden Reizen evoziert, wo ein abweichender und unerwarteter Reiz in zufälliger Folge dargeboten wird.', 
+                   'Wird dann evoziert, wenn ein Satz auf unerwartete Art beendet wird.', 
+                   'Wird in einem Zwei-Stimulus-Paradigma evoziert: Warnstimulus und Imperativstimulus.',
+                   'Geschieht einige hundert Millisekunden vor der eigentlichen Bewegung. Es ist ein Mass der Aktivität des motorischen Kortex zur Vorbereitung willkürlicher Muskelbewegungen.',
+                   'Geschieht 40-120 ms nachdem bspw. ein Fehler in einer speeded response time task gemacht wurde.',
+                ]
+                   
+    const word3 = [ '<a class="image" href="./assets/images/image1.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image1.png"></a>', 
+>>>>>>> 6b17680d595617452a2b1e455e921baf284888ff
                     '<a class="image" href="./assets/images/image2.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image2.png"></a>', 
                     '<a class="image" href="./assets/images/image3.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image3.png"></a>', 
                     '<a class="image" href="./assets/images/image4.png" data-lightbox="mygallery"><img class="image" src="./assets/images/image4.png"></a>', 
