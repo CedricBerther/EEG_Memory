@@ -88,7 +88,7 @@ const generateGame = () => {
                    '= brainstem potentials. Werden anhand von Klicks getestet und dienen dazu, die Integrität der Nervenbahnen im Rückenmark und Hirnstamm zu überprüfen.',
                    '= visuell evozierte Potentiale. Werden zur Untersuchung der Sehbahn genutzt.', 
                    '= auditorisch evozierte Potentiale. Werde zur Untersuchung von akustischen Bahnen genutzt und anhand von Klicks ausgelöst.', 
-                   '= somatosensorisch evozierte Potentiale. Sie werden zur Untersuchung der Leitfähigkeit der sensorischen Bahnen genutzt.', 
+                   '= somatosensorisch evozierte Potentiale. Werden zur Untersuchung der Leitfähigkeit der sensorischen Bahnen genutzt.', 
                    '= mismatch negativity. Tritt 10-350 ms nach der Präsentation eines abweichenden Stimulus in einer Reihe gleichförmiger Reize auf. Beispiel: Tonabfolge.', 
                    'endogen, Geschieht ca. 200-600 ms nach dem Stimulus, Quellen sind aufgabenspezifisch', 
                    'Tritt 300 ms nach dem Stimulus auf, Wird anhand des Oddball-Paradigma oder CPT ausgelöst, Wird in einer Serie von gleichbleibenden Reizen evoziert, wo ein abweichender und unerwarteter Reiz in zufälliger Folge dargeboten werden.', 
